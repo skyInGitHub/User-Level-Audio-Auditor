@@ -1,4 +1,6 @@
 # user-level-audio-auditor (Transcriptions-Only)
+Paper: (The Audio Auditor: User-Level Membership Inference in Internet of Things Voice Services)[https://arxiv.org/abs/1905.07082]
+Published: PoPETS 2019
 ## Table of Contents
 * [Data Prepare](#data-prepare)
 * [Data Preprocess](#data-preprocess-feature-extraction)
