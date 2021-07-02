@@ -105,9 +105,3 @@ $ python ./audit_speaker.py
 ```
 
 
-## Result Analysis
-
-```bash
-$ python ./plot_fig.py
-```
-
