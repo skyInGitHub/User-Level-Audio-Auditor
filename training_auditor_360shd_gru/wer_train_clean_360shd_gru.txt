@@ -1,0 +1,5 @@
+compute-wer --text --mode=present ark:train-clean-360-sh-true-txt.txt ark:360shd_gru/member_train_clean_360_shd_tmp.txt 
+%WER 5.99 [ 121049 / 2021106, 14916 ins, 11440 del, 94693 sub ]
+%SER 73.80 [ 43016 / 58290 ]
+Scored 58290 sentences, 0 not present in hyp.
+ The END. 

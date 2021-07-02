@@ -1,0 +1,5 @@
+compute-wer --text --mode=present ark:train-clean-100-user-true-txt.txt ark:member_train_clean_100_user_tmp.txt 
+%WER 5.06 [ 33057 / 652844, 3987 ins, 2887 del, 26183 sub ]
+%SER 69.03 [ 12978 / 18800 ]
+Scored 18800 sentences, 0 not present in hyp.
+ The END. 

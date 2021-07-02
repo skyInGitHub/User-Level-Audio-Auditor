@@ -1,0 +1,5 @@
+compute-wer --text --mode=present ark:test-clean-2-user-true-txt.txt ark:nonmember_test_clean_2_user_tmp.txt 
+%WER 9.08 [ 32973 / 363325, 5053 ins, 2549 del, 25371 sub ] [PARTIAL]
+%SER 82.56 [ 9145 / 11077 ]
+Scored 11077 sentences, 1 not present in hyp.
+ The END. 

@@ -1,0 +1,5 @@
+compute-wer --text --mode=present ark:test-clean-1-sh-true-txt.txt ark:360shd_gru/nonmember_test_clean_1_shd_tmp.txt 
+%WER 8.48 [ 135692 / 1600787, 18374 ins, 11971 del, 105347 sub ] [PARTIAL]
+%SER 81.48 [ 38300 / 47003 ]
+Scored 47003 sentences, 2 not present in hyp.
+ The END. 
