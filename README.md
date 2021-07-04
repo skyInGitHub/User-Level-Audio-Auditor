@@ -18,9 +18,9 @@ Transcription-only black-box access to ASR model:
 * Output: its predicted transcription
 
 User-level Membership Inference Attack:
-Querying with a user’s data, if this user has any data within target model’s training set, even if the query data are not members of the training set, this user is the user-level member of this training set.
+* Querying with a user’s data, if this user has any data within target model’s training set, even if the query data are not members of the training set, this user is the user-level member of this training set.
 
-Fig. 2 depicts a workflow of our audio auditor auditing an ASR model. Generally, there are two processes, i.e., training and auditing. The former process is to build a binary classifier as a user-level membership auditor *A_{audit}* using a supervised learning algorithm. The latter uses this auditor to audit an ASR model *F_{tar}* by querying a few audios spoken by one user u. In Section 4.4, we show that only a small number of audios per user can determine whether *u ∈ U_{tar}* or *u ∈/ U_{tar}*. Furthermore, a small number of users used to train the auditor is sufficient to provide a satisfying result.
+Fig. 2 depicts a workflow of our audio auditor auditing an ASR model. Generally, there are two processes, i.e., training and auditing. The former process is to build a binary classifier as a user-level membership auditor *A<sub>audit<sub>* using a supervised learning algorithm. The latter uses this auditor to audit an ASR model *F_{tar}* by querying a few audios spoken by one user u. In Section 4.4, we show that only a small number of audios per user can determine whether *u ∈ U<sub>tar<sub>* or *u /∈ U<sub>tar<sub>*. Furthermore, a small number of users used to train the auditor is sufficient to provide a satisfying result.
 
 <img width="853" alt="methodology" src="https://user-images.githubusercontent.com/13388819/124377778-ed815200-dcec-11eb-9cda-d13eb265dc08.png">
 
